@@ -5,13 +5,11 @@ It supports both hardware (Raspberry Pi) and simulation (Windows) modes, with a 
 
 ![image](images/fluid1.gif)
 
-## Features
+## Warning
 
-- **Multiple Input Sources**: 
-    - video
-    - camera capture
-    - static images
-    - audio
+This repository provides an overview of the project but does not contain the source code. The software has been developed for commercial use, and the actual codebase is proprietary and not publicly available.
+
+## Features
 
 - **Dynamic Effects**: 
   - Rainbow effect
@@ -19,6 +17,18 @@ It supports both hardware (Raspberry Pi) and simulation (Windows) modes, with a 
   - Fade effects
   - Color correction and conversion
   - Weighted color extraction
+
+<img src="images/lightning1.gif" width="600"/>
+<br></br>
+
+- **Visual Controls**:
+  - Brightness adjustment
+  - Color intensity modification
+  - Greyscale correction
+  - Transition speed mapping
+
+<img src="images/fluid2.gif" width="600"/>
+<br></br>
 
 - **Hardware Support**:
   - Raspberry Pi 3 integration with rpi_ws281x library
@@ -36,11 +46,17 @@ It supports both hardware (Raspberry Pi) and simulation (Windows) modes, with a 
   - Precision timers for accurate timing
   - Threading support
 
-- **Visual Controls**:
-  - Brightness adjustment
-  - Color intensity modification
-  - Greyscale correction
-  - Transition speed mapping
+<img src="images/lightning2.gif" width="600"/>
+<br></br>
+
+- **Multiple Input Sources**: 
+    - video
+    - camera capture
+    - static images
+    - audio
+
+<img src="images/simulation_static.png" width="600"/>
+<br></br>
 
 ## System Architecture
 
@@ -72,8 +88,12 @@ The repository includes scripts for:
 - CMake build system
 - rpi_ws281x library (for hardware mode)
 
+## NeoPixel LED driver in assembly (ARM)
+
+### FriSMS
 [FriSMS driver](friSMS_driver.md)
 
+### STM32, Rpi3
 ![image](images/Neopixel_strip.png)
 ![image](images/STM32.png)
 ![image](images/Rasphberry_PI.png)
