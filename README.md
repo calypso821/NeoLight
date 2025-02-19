@@ -1,9 +1,9 @@
-
-
-#### NeoLight Ambient Light project
+# NeoLight Ambient Light project
 
 NeoLightFX is a C++ application designed to drive programmable LED strips (WS2811/WS2812) with advanced visual effects. 
 It supports both hardware (Raspberry Pi) and simulation (Windows) modes, with a focus on real-time processing of various input sources including video, images, and audio.
+
+![image](images/fluid1.gif)
 
 ## Features
 
@@ -75,11 +75,13 @@ The repository includes scripts for:
 [FriSMS driver](friSMS_driver.md)
 
 ![image](images/Neopixel_strip.png)
-![image](images/power.png)
-![image](images/power_control.png)
 ![image](images/STM32.png)
 ![image](images/Rasphberry_PI.png)
 ![image](images/SPI.png)
-![image](images/CaptureCard.png)
-![image](images/zakljucekVIN.png)
 ![image](images/zakljucekOR.png)
+
+
+[image](images/power.png)
+[image](images/power_control.png)
+[image](images/CaptureCard.png)
+[image](images/zakljucekVIN.png)
