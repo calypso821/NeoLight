@@ -1,6 +1,6 @@
 # NeoLight Ambient Light project
 
-NeoLightFX is a C++ application designed to drive programmable LED strips (WS2811/WS2812) with advanced visual effects. 
+NeoLight is a C++ application designed to drive programmable LED strips (WS2811/WS2812) with advanced visual effects. 
 It supports both hardware (Raspberry Pi) and simulation (Windows) modes, with a focus on real-time processing of various input sources including video, images, and audio.
 
 ![image](images/fluid1.gif)
